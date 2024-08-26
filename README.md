@@ -1,9 +1,5 @@
 # xCell 2.0 pre-trained references
 
-Here's the table created in markdown format:
-
-
-
 | Dataset | Study | Species | Normalization | nSamples/Cells | nCellTypes | Platform | Tissues |
 |---------|-------|---------|---------------|----------------|------------|----------|---------|
 | [BlueprintEncode](/references/BlueprintEncode.xCell2Ref.rds) | Martens JHA and Stunnenberg HG (2013), The ENCODE Project Consortium (2012), Aran D (2019) | Homo Sapiens | TPM | 259 | 43 | RNA-seq | Mixed |
