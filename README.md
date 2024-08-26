@@ -16,7 +16,4 @@ Here's the table created in markdown format:
 | Tabula Sapiens Blood | The Tabula Sapiens Consortium (2022) | Homo Sapiens | Counts | 11921 | 18 | scRNA-seq | Blood, Lymph_Node, Spleen, Thymus, Bone Marrow |
 | TME Compendium | Zaitsev A (2022) | Homo Sapiens | TPM | 8146 | 25 | RNA-seq | Tumor |
 
-This markdown table represents the data from the provided CSV file. It includes information about various datasets, their associated studies, species, normalization methods, sample sizes, cell types, platforms, and tissues involved.
-
-
 We invite users to upload their own xCell2 objects to https://github.com/dviraran/ and update this table accordingly.
