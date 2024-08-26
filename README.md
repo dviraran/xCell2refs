@@ -1,12 +1,22 @@
 # xCell 2.0 pre-trained references
 
-| Dataset               | Source        | Normalization | Normalization -SigMat | nSamples | nCellTypes | Method    | DataType     | Tissue | Comments                            |
-|-----------------------|---------------|---------------|-----------------------|----------|------------|-----------|--------------|--------|-------------------------------------|
-| Immune Cell Compendium| Kassandra     | TPM           | TPM                   | 3626     | 40         | RNA-seq   | Sorted cells | Blood  |                                     |
-| TME Cell Compendium   | Kassandra     | TPM           | TPM                   | 8146     | 25         | RNA-seq   | Sorted cells | Tumor  |                                     |
-| TS Blood              | Tabula Sapiens| No - counts   | CPM                   | 11921    | 18         | scRNA-seq | scRNA-seq    | Blood  |                                     |
-| [BlueprintEncode](/references/BlueprintEncode.xCell2Ref.rds)       | celldex       | TPM           | LogCounts             | 259      | 43         | RNA-seq   | Sorted cells | Mixed  |                                     |
-| LM22                  | CIBERSORT     | RMA*          | RMA*                  |          |            | Array     | Sorted cells | Mixed  | * In log-space, raw data for CIBERSORTx |
+Here's the table created in markdown format:
+
+
+
+| Dataset | Study | Species | Normalization | nSamples/Cells | nCellTypes | Platform | Tissues |
+|---------|-------|---------|---------------|----------------|------------|----------|---------|
+| [BlueprintEncode](/references/BlueprintEncode.xCell2Ref.rds) | Martens JHA and Stunnenberg HG (2013), The ENCODE Project Consortium (2012), Aran D (2019) | Homo Sapiens | TPM | 259 | 43 | RNA-seq | Mixed |
+| ImmGenData | The Immunological Genome Project Consortium (2008), Aran D (2019) | Mus Musculus | RMA | 843 | 19 | Microarray | Immune/Blood |
+| Immune Compendium | Zaitsev A (2022) | Homo Sapiens | TPM | 3626 | 40 | RNA-seq | Immune/Blood |
+| LM22 | Chen B (2019) | Homo Sapiens | RMA | 113 | 22 | Microarray | Mixed |
+| MouseRNAseqData | Benayoun B (2019) | Mus Musculus | TPM | 358 | 18 | RNA-seq | Mixed |
+| Pan Cancer | Nofech-Mozes I (2023) | Homo Sapiens | Counts | 25084 | 29 | scRNA-seq | Tumor |
+| Tabula Muris Blood | The Tabula Muris Consortium (2018) | Mus Musculus | Counts | 11145 | 6 | scRNA-seq | Bone Marrow, Spleen, Thymus |
+| Tabula Sapiens Blood | The Tabula Sapiens Consortium (2022) | Homo Sapiens | Counts | 11921 | 18 | scRNA-seq | Blood, Lymph_Node, Spleen, Thymus, Bone Marrow |
+| TME Compendium | Zaitsev A (2022) | Homo Sapiens | TPM | 8146 | 25 | RNA-seq | Tumor |
+
+This markdown table represents the data from the provided CSV file. It includes information about various datasets, their associated studies, species, normalization methods, sample sizes, cell types, platforms, and tissues involved.
 
 
 We invite users to upload their own xCell2 objects to https://github.com/dviraran/ and update this table accordingly.
