@@ -5,7 +5,7 @@
 | Immune Cell Compendium| Kassandra     | TPM           | TPM                   | 3626     | 40         | RNA-seq   | Sorted cells | Blood  |                                     |
 | TME Cell Compendium   | Kassandra     | TPM           | TPM                   | 8146     | 25         | RNA-seq   | Sorted cells | Tumor  |                                     |
 | TS Blood              | Tabula Sapiens| No - counts   | CPM                   | 11921    | 18         | scRNA-seq | scRNA-seq    | Blood  |                                     |
-| [BlueprintEncode]{https://github.com/dviraran/xCell2refs/blob/main/references/BlueprintEncode.xCell2Ref.rds}       | celldex       | TPM           | LogCounts             | 259      | 43         | RNA-seq   | Sorted cells | Mixed  |                                     |
+| [BlueprintEncode](/references/BlueprintEncode.xCell2Ref.rds)       | celldex       | TPM           | LogCounts             | 259      | 43         | RNA-seq   | Sorted cells | Mixed  |                                     |
 | LM22                  | CIBERSORT     | RMA*          | RMA*                  |          |            | Array     | Sorted cells | Mixed  | * In log-space, raw data for CIBERSORTx |
 
 
