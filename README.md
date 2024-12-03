@@ -12,4 +12,4 @@
 | [Tabula Sapiens Blood](/references/TabulaSapiensBlood.xCell2Ref.rds) | The Tabula Sapiens Consortium (2022) | Homo Sapiens | Counts | 11921 | 18 | scRNA-seq | Blood, Lymph_Node, Spleen, Thymus, Bone Marrow |
 | [TME Compendium](/references/TMECompendium.xCell2Ref.rds) | Zaitsev A (2022) | Homo Sapiens | TPM | 8146 | 25 | RNA-seq | Tumor |
 
-We invite users to upload their own xCell2 objects to https://github.com/dviraran/ and update this table accordingly.
+We invite users to upload their own xCell2 objects to https://github.com/dviraran/xCell2refs and update this table accordingly.
